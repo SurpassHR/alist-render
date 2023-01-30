@@ -22,8 +22,6 @@ services:
         value: BlzIVsACIGC1-_8uTSX5hWjl50759el5
       - key: DB_NAME
         value: lqqqtgwx
-      - key: DB_TABLE_PREFIX
-        value: alist_
       - key: DB_SSL_MODE
         value: disable
         
