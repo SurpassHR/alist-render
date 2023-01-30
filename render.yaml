@@ -9,28 +9,32 @@ services:
     healthCheckPath: /
     envVars:
       - key: PORT
-        value: 5244
+        value: 8080
       - key: DB_TYPE
-        # value: sqlite3
+        value: postgres
         sync: false
       - key: DB_HOST
-        # value: db_host
+        value: satao.db.elephantsql.com
         sync: false
       - key: DB_PORT
-        # value: 3306
+        value: 5432
         sync: false
       - key: DB_USER
-        # value: db_user
+        value: lqqqtgwx
         sync: false
       - key: DB_PASS
-        # value: db_password
+        value: BlzIVsACIGC1-_8uTSX5hWjl50759el5
         sync: false
       - key: DB_NAME
-        # value: db_name
+        value: lqqqtgwx
         sync: false
       - key: DB_TABLE_PREFIX
-        # value: alist_
+        value: alist_
         sync: false
       - key: CDN
         # value: https://npm.elemecdn.com/alist-web@$version/dist
         sync: false
+       - key: DB_SSL_MODE
+        value: disable
+        sync: false
+        
