@@ -11,7 +11,7 @@ services:
       - key: PORT
         value: 8080
       - key: DB_TYPE
-        value: postgresql
+        value: postgres
       - key: DB_HOST
         value: satao.db.elephantsql.com
       - key: DB_PORT
