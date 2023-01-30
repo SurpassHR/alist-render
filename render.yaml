@@ -23,5 +23,5 @@ services:
       - key: DB_NAME
         value: quhszxme
       - key: DB_SSL_MODE
-        value: disable
+        value: false
         
