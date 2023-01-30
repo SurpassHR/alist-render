@@ -12,29 +12,20 @@ services:
         value: 8080
       - key: DB_TYPE
         value: postgres
-        sync: false
       - key: DB_HOST
         value: satao.db.elephantsql.com
-        sync: false
       - key: DB_PORT
         value: 5432
-        sync: false
       - key: DB_USER
         value: lqqqtgwx
-        sync: false
       - key: DB_PASS
         value: BlzIVsACIGC1-_8uTSX5hWjl50759el5
-        sync: false
       - key: DB_NAME
         value: lqqqtgwx
-        sync: false
       - key: DB_TABLE_PREFIX
         value: alist_
-        sync: false
       - key: CDN
         # value: https://npm.elemecdn.com/alist-web@$version/dist
-        sync: false
       - key: DB_SSL_MODE
         value: disable
-        sync: false
         
