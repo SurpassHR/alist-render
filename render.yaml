@@ -17,11 +17,11 @@ services:
       - key: DB_PORT
         value: 5432
       - key: DB_USER
-        value: lqqqtgwx
+        value: quhszxme
       - key: DB_PASS
-        value: BlzIVsACIGC1-_8uTSX5hWjl50759el5
+        value: w43ZPnNn9TciaLopt-u1G7oN_ob4G_Sq
       - key: DB_NAME
-        value: lqqqtgwx
+        value: quhszxme
       - key: DB_SSL_MODE
         value: disable
         
