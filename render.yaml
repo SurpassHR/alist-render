@@ -1,11 +1,10 @@
 services:
   # A Docker web service
   - type: web
-    name: alist
+    name: myalist
     env: docker
-    repo: https://github.com/Seazer-x/alist-render.git # optional
-    region: oregon # optional (defaults to oregon)
-    plan: free # optional (defaults to starter)
+    repo: https://github.com/Seazer-x/alist-render.git
+    plan: free
     healthCheckPath: /
     envVars:
       - key: PORT
@@ -23,5 +22,5 @@ services:
       - key: DB_NAME
         value: quhszxme
       - key: DB_SSL_MODE
-        value: false
+        value: disable
         
