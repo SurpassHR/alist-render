@@ -3,7 +3,7 @@ services:
   - type: web
     name: myalist
     env: docker
-    repo: https://github.com/Seazer-x/alist-render.git
+    repo: https://github.com/SurpassHR/alist-render.git
     plan: free
     healthCheckPath: /
     envVars:
@@ -16,11 +16,11 @@ services:
       - key: DB_PORT
         value: 5432
       - key: DB_USER
-        value: quhszxme
+        value: gjconxhi
       - key: DB_PASS
-        value: w43ZPnNn9TciaLopt-u1G7oN_ob4G_Sq
+        value: VL7e1YalQioLWKZFt3C2hzMC11m_woTq
       - key: DB_NAME
-        value: quhszxme
+        value: alist-render
       - key: DB_SSL_MODE
         value: disable
         
