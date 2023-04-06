@@ -20,7 +20,7 @@ services:
       - key: DB_PASS
         value: VL7e1YalQioLWKZFt3C2hzMC11m_woTq
       - key: DB_NAME
-        value: alist-render
+        value: gjconxhi
       - key: DB_SSL_MODE
         value: disable
         
